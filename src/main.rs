@@ -1,6 +1,6 @@
 use std::{process, time::Instant};
 
-use brt::{
+use bvm::{
     config::Config, loader::Loader, optimizer, translator, vm::VM, AUTHOR, DESCRIPTION, NAME,
     NO_INPUTS, VERSION,
 };
